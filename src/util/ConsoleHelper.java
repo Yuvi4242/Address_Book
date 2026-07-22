@@ -1,8 +1,8 @@
 package util;
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 public class ConsoleHelper {
-=======
+=========
 import model.Contact;
 import java.util.Scanner;
 
@@ -34,5 +34,5 @@ public class ConsoleHelper {
 
         return new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
     }
->>>>>>> uc2
+>>>>>>>>> Temporary merge branch 2
 }

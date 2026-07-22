@@ -1,8 +1,8 @@
 package service;
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 public class AddressBook {
-=======
+=========
 import model.Contact;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,5 +21,5 @@ public class AddressBook {
     public List<Contact> getContactList() {
         return contactList;
     }
->>>>>>> uc2
+>>>>>>>>> Temporary merge branch 2
 }
