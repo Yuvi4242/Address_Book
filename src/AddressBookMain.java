@@ -1,4 +1,11 @@
 import model.Contact;
+<<<<<<< HEAD
+=======
+import service.AddressBook;
+import util.ConsoleHelper;
+
+import java.util.Scanner;
+>>>>>>> uc2
 
 public class AddressBookMain {
     public static void main(String[] args) {
@@ -7,6 +14,7 @@ public class AddressBookMain {
         System.out.println("=====================================");
         System.out.println();
 
+<<<<<<< HEAD
         Contact contact = new Contact(
             "John",
             "Doe",
@@ -19,5 +27,17 @@ public class AddressBookMain {
         );
 
         System.out.println(contact);
+=======
+        AddressBook addressBook = new AddressBook();
+        Scanner scanner = new Scanner(System.in);
+
+        Contact contact = ConsoleHelper.readContact(scanner);
+        addressBook.addContact(contact);
+
+        System.out.println("\nContact Added Successfully.\n");
+        System.out.println(contact);
+
+        scanner.close();
+>>>>>>> uc2
     }
 }
