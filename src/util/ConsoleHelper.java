@@ -31,24 +31,4 @@ public class ConsoleHelper {
 
         return new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
     }
-
-    public static void editContactDetails(Contact contact, Scanner scanner) {
-        System.out.print("Enter New Address: ");
-        contact.setAddress(scanner.nextLine().trim());
-
-        System.out.print("Enter New City: ");
-        contact.setCity(scanner.nextLine().trim());
-
-        System.out.print("Enter New State: ");
-        contact.setState(scanner.nextLine().trim());
-
-        System.out.print("Enter New Zip: ");
-        contact.setZip(scanner.nextLine().trim());
-
-        System.out.print("Enter New Phone Number: ");
-        contact.setPhoneNumber(scanner.nextLine().trim());
-
-        System.out.print("Enter New Email: ");
-        contact.setEmail(scanner.nextLine().trim());
-    }
 }

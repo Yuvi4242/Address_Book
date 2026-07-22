@@ -18,13 +18,4 @@ public class AddressBook {
     public List<Contact> getContactList() {
         return contactList;
     }
-
-    public Contact findContactByFirstName(String firstName) {
-        for (Contact contact : contactList) {
-            if (contact.getFirstName().equalsIgnoreCase(firstName)) {
-                return contact;
-            }
-        }
-        return null;
-    }
 }
